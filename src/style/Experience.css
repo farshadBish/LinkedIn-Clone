@@ -1,0 +1,17 @@
+/** @format */
+
+.lineHeight {
+  line-height: 1.3rem;
+  border-radius: 10px;
+  /* border: 0.1px solid rgb(227, 221, 221); */
+}
+.changeTheFont {
+  font-size: 14px;
+}
+.experiance-container {
+  width: 100%;
+  height: auto;
+}
+/* .experiance-container {
+  overflow-x: scroll;
+} */

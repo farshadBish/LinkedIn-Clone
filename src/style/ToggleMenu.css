@@ -1,0 +1,79 @@
+/** @format */
+
+.toggle-container {
+  position: absolute;
+  left: -70vw !important;
+  margin-top: -5px !important;
+  width: 100vw !important;
+  height: 92vh;
+  background-color: #00000099 !important;
+}
+.toggle-menu {
+  position: absolute;
+  top: 0;
+  right: 1%;
+  width: 27vw;
+  height: 92vh;
+  background-color: rgb(253, 253, 253);
+  border-radius: 15px 0 0 15px;
+  overflow-y: scroll;
+}
+.toggle-section01 {
+  width: 90%;
+  border: 1px solid rgb(183, 183, 183);
+  border-radius: 10px;
+}
+.toggle-item {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 15px -4px rgba(0, 0, 0, 0.49);
+  box-shadow: 0px 1px 15px -4px rgba(0, 0, 0, 0.49);
+  cursor: pointer;
+}
+.toggle-item:hover {
+  -webkit-box-shadow: 0px 1px 15px -4px #000000;
+  box-shadow: 0px 1px 15px -4px #000000;
+}
+.toggle-item i {
+  font-size: 25px;
+  color: rgb(25, 96, 217);
+}
+.toggle-section02 {
+  width: 80%;
+}
+.toggle-section02 div p {
+  color: rgb(66, 66, 66);
+  margin-bottom: 0;
+  cursor: pointer;
+  line-height: 5px;
+}
+.toggle-section02 div small {
+  color: rgb(114, 114, 114);
+  margin-bottom: 0;
+  cursor: pointer;
+  line-height: 5px;
+}
+.toggle-section02 div {
+  margin: 15px 0 12px 0;
+}
+.toggle-section02 div p:hover {
+  text-decoration: underline;
+  color: rgb(81, 81, 81);
+  cursor: pointer;
+}
+.toggle-section02 div p:hover {
+  text-decoration: underline;
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+}
+.toggle-section02 div small:hover {
+  text-decoration: underline;
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+}
